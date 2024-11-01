@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MvcBookStore.Models.SACH>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+
+
+    <div id="templatemo_content">
+
+        <div id="templatemo_content_left">
+            @Html.Action("ChuDe", "BookStore")
+            @Html.Action("NhaXuatBan", "BookStore")
+
+        </div> <!-- end of content left -->
+      
+        <div id="templatemo_content_right">
+            @foreach (var sach in Model)
+            {
+                <div class="templatemo_product_box">
+                    <h1>@sach.Tensach  <span>(by Best @sach.Tensach)</span></h1>
+                    <img src="~/Images/@sach.Anhbia" alt="image" width="100px" height="150px">
+                    <div class="product_info">
+                        <p>Mô tả: @sach.Mota</p>
+                        <h3>Giá bán :@sach.Giaban</h3>
+                  
+                        <div class="detail_button"><a href="@Url.Action("Details", "BookStore", new { id = sach.Masach})">Chi tiết sách</a></div>
+                    </div>
+                    <div class="cleaner">&nbsp;</div>
+                </div>
+          
+
+            }
+            </div> <!-- end of content right -->
+
+        <div class="cleaner_with_height">&nbsp;</div>
+    </div> <!-- end of content -->
+
+
+
+

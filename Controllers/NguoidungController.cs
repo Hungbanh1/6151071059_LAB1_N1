@@ -44,6 +44,8 @@ namespace MvcBookStore.Controllers
                 if (kh != null)
                 {
                     ViewBag.Thongbao = "Chúc mừng đăng nhập thành công";
+                    Session["tendn"] = tendn;
+        
                     Session["Taikhoan"] = kh;
                     return RedirectToAction("Index", "Bookstore");
                 }
@@ -113,6 +115,11 @@ namespace MvcBookStore.Controllers
             }
             return this.Dangky();
             //return View();
+        }
+        public ActionResult Dangxuat()
+        {
+            Session.Abandon();
+            return RedirectToAction("Index", "BookStore");
         }
     }
 }

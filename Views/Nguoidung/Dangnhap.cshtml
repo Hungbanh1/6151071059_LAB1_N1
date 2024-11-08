@@ -1,0 +1,65 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Dangnhap</title>
+</head>
+<body>
+    <div>
+        <h1>Chào mừng bạn tới trang login</h1>
+    </div>
+    <div class="container mt-5">
+        <div class="card">
+            @*<div class="card-header text-center">
+                <h4>Đăng nhập</h4>
+            </div>*@
+            <h4 style="color:red;text-align:center";>@ViewBag.ThongBao</h4>
+            <div class="container mt-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>ĐĂNG NHẬP</h3>
+                    </div>
+                    <div class="card-body">
+                        @using (Html.BeginForm())
+                        {
+                            @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+                            <div class="form-group row mb-3">
+                                <label for="TenDN" class="col-sm-4 col-form-label text-right">Tên đăng nhập:</label>
+                                <div class="col-sm-8">
+                                    @Html.TextBox("TenDN", null, new { @class = "form-control", placeholder = "Nhập tên đăng nhập" })
+                                    <small class="text-danger">@ViewData["Loai1"]</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group row mb-3">
+                                <label for="Matkhau" class="col-sm-4 col-form-label text-right">Mật khẩu:</label>
+                                <div class="col-sm-8">
+                                    @Html.Password("Matkhau", null, new { @class = "form-control", placeholder = "Nhập mật khẩu" })
+                                    <small class="text-danger">@ViewData["Loai2"]</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-8 offset-sm-4">
+                                    <input type="submit" value="Đăng nhập" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

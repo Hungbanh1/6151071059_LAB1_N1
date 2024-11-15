@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|c:\\users\\hlmth\\desktop\\lab_thuchanh_web\\6151071059_lab1_n1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|c:\\users\\hlmth\\desktop\\lab_thuchanh_web\\6151071059_lab1_n1\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|c:\\users\\hlmth\\desktop\\lab_thuchanh_web\\6151071059_lab1_n1\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|c:\\users\\hlmth\\desktop\\lab_thuchanh_web\\6151071059_lab1_n1\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|c:\\users\\hlmth\\desktop\\lab_thuchanh_web\\6151071059_lab1_n1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A9EEFF3-074D-4131-9E0B-7C10D028DF33}|MvcBookStore.csproj|C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\views\\admin\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Login.cshtml",
@@ -72,20 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_LayoutUser.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
               "ToolTip": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Shared\\_LayoutUser.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T13:49:22.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
@@ -98,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
               "ToolTip": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T13:36:27.945Z",
               "EditorCaption": ""
@@ -123,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Suasach.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Suasach.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Suasach.cshtml",
@@ -136,7 +140,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "NguoidungController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Controllers\\NguoidungController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NguoidungController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Controllers\\NguoidungController.cs",
+              "RelativeToolTip": "Controllers\\NguoidungController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:17:35.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Sach.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Sach.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Sach.cshtml",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Themmoisach.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Themmoisach.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Themmoisach.cshtml",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Xoasach.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Xoasach.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Xoasach.cshtml",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Chitietsach.cshtml",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Views\\Admin\\Chitietsach.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Chitietsach.cshtml",
@@ -187,13 +204,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\hlmth\\Desktop\\Lab_thuchanh_web\\6151071059_LAB1_N1\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAywCQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwD4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T05:57:06.485Z",
               "EditorCaption": ""

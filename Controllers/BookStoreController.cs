@@ -6,6 +6,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using PagedList;
+using PagedList.Mvc;
+
 namespace BookStore.Controllers
 {
     public class BookStoreController : Controller
@@ -27,12 +30,21 @@ namespace BookStore.Controllers
             // Sap xep giam dan theo Ngaycapnhat, lay count dong dau  
             return data.SACHes.OrderByDescending(a => a.Ngaycapnhat).Take(count).ToList();
         }
-
-        public ActionResult Index()
+        private List<SACH> Laysachmoi()
         {
+            // Sap xep giam dan theo Ngaycapnhat, lay count dong dau  
+            return data.SACHes.OrderByDescending(a => a.Ngaycapnhat).ToList();
+        }
+        public ActionResult Index(int ? Page)
+        {
+            int pageSize = 4;
+
+            int pageNum = (Page ?? 1);
+
+
             // Lay 5 quyen sach moi nhat  
-            var sachmoi = Laysachmoi(5);
-            return View(sachmoi);
+            var sachmoi = Laysachmoi();
+            return View(sachmoi.ToPagedList(pageNum,pageSize));
         }
         public ActionResult ChuDe() {
             var chude = from cd in data.CHUDEs select cd;

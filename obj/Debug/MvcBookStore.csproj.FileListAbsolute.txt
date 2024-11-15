@@ -156,3 +156,7 @@ C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\obj\Debug\MvcBookStor
 C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\obj\Debug\MvcBookS.F1690B1F.Up2Date
 C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\obj\Debug\MvcBookStore.dll
 C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\obj\Debug\MvcBookStore.pdb
+C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\bin\PagedList.dll
+C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\bin\PagedList.Mvc.dll
+C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\bin\PagedList.xml
+C:\Users\hlmth\Desktop\Lab_thuchanh_web\6151071059_LAB1_N1\bin\PagedList.Mvc.xml

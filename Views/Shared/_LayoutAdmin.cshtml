@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Book Store Template, Free CSS Template, CSS Website Layout</title>
+    <meta name="keywords" content="Book Store Template, Free CSS Template, CSS Website Layout, CSS, HTML" />
+    <meta name="description" content="Book Store Template, Free CSS Template, Download CSS Website" />
+    <link href="~/Content/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <title>@ViewBag.Title</title>
+    <script src="/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+</head>
+<body>
+    <body>
+
+        <!--  Free CSS Templates from www.templatemo.com -->
+        <div id="templatemo_container">
+            <div id="templatemo_menu">
+                <ul>
+
+                    <li><a href="@Url.Action("Index", "BookStore")" class="current">Home</a></li>
+                    <li><a href="@Url.Action("Sach", "Admin")">Quản lý sách</a></li>
+                    <li><a href="#">Quản lý người dùng</a></li>
+                    @*<li><a href="#">New Releases</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Contact</a></li>*@
+                    @if (Session["tendn"] != null)
+                    {
+                        //var user = (UserModel)Session["User"];
+                        <li><a href="#">Hello, @Session["tendn"]</a></li>
+                        <li><a href="@Url.Action("Dangxuat", "Nguoidung")">Logout</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="@Url.Action("Dangnhap", "Nguoidung")">Login</a></li>
+                        <li><a href="@Url.Action("Dangky", "Nguoidung")">Register</a></li>
+                    }
+                </ul>
+            </div> <!-- end of menu -->
+
+            <div id="templatemo_header">
+                <div id="templatemo_special_offers">
+                    <p>
+                        <span>25%</span> discounts for
+                        purchase over $80
+                    </p>
+                    <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+                </div>
+
+
+
+                @*@Html.Action("ChuDe", "BookStore");*@
+                @*@Html.Action("NhaXuatBan", "BookStore");*@
+                <div id="templatemo_new_books">
+                    <ul>
+                        <li>Suspen disse</li>
+                        <li>Maece nas metus</li>
+                        <li>In sed risus ac feli</li>
+                    </ul>
+                    <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+                </div>
+            </div> <!-- end of header -->
+            @RenderBody()
+
+            <div id="templatemo_footer">
+
+                <a href="subpage.html">Home</a> | <a href="subpage.html">Search</a> | <a href="subpage.html">Books</a> | <a href="#">New Releases</a> | <a href="#">FAQs</a> | <a href="#">Contact Us</a><br />
+                Copyright © 2048 <a href="#"><strong>Your Company Name</strong></a> | <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent" title="free css templates">Free CSS Templates</a>
+            </div>
+            <!-- end of footer -->
+            <!--  Free CSS Template www.templatemo.com -->
+        </div> <!-- end of container -->
+        <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
+    </body>
+</body>
+</html>
